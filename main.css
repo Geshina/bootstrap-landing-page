@@ -17,9 +17,18 @@
     color: var(--blue);
 }
 .cont{
-    width: 88vw;
+    width: 85vw;
     margin-inline: auto;
     padding: 0%;
+}
+.bg-white{
+    background-color:white;
+}
+.bg-blue{
+    background-color: var(--blue);
+}
+.width-75{
+    width: 75%;
 }
 .blue-line{
     width: 100%;
@@ -28,14 +37,18 @@
 }
 .sec-1{
     height: 34vh;
-    width: 100%;
     background-image:
     url(\New_folder\images\banner.jpg);
     background-color: var(--lgray);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sec-2{
-    height: 66vh;
-    background-color: white;
+
+.btn-small-fill{
+    background-color: var(--blue);
+    border-radius: 0%;
+    color:white;
+    padding: 1.25em;
+    width: 100%;
+
 }
