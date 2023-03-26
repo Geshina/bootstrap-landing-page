@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
 :root{
     --blue:#5385c1;
     --lgray:#9a9a9a;
     --dgray:#5a5a5a;
 }
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.bold{
+    font-weight: 600;
+}
+.light{
+    font-weight: 100;
+}
+.blue{
+    color: var(--blue);
+}
 .cont{
-    width: 95vw;
+    width: 88vw;
     margin-inline: auto;
     padding: 0%;
 }
@@ -14,11 +27,15 @@
     background-color: var(--blue);
 }
 .sec-1{
-    height: 50vh;
+    height: 34vh;
     width: 100%;
     background-image:
     url(\New_folder\images\banner.jpg);
     background-color: var(--lgray);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.sec-2{
+    height: 66vh;
+    background-color: white;
 }
