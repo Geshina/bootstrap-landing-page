@@ -46,12 +46,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .btn-small-fill{
     background-color: var(--blue);
     border-radius: 0%;
     color:white;
     padding: 1.25em;
     width: 100%;
-
 }
